@@ -1,0 +1,29 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AngularJS",
+		"Autoprefixer",
+		"ColorPicker",
+		"DashDoc",
+		"Dotfiles Syntax Highlighting",
+		"EditorConfig",
+		"Emmet",
+		"Gradle_Language",
+		"Indent XML",
+		"JavaScript Snippets",
+		"Markdown Preview",
+		"Pretty JSON",
+		"Railscasts Extended",
+		"SideBarEnhancements",
+		"STProjectMaker",
+		"SublimeLinter",
+		"TernJS",
+		"Theme - Spacegray",
+		"Vintageous"
+	],
+	"repositories":
+	[
+		"https://github.com/jfromaniello/sublime-html-to-jade.git"
+	]
+}

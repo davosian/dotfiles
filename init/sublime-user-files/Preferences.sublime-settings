@@ -1,9 +1,6 @@
 {
 	"color_scheme": "Packages/User/Dawn (SL).tmTheme",
 	"default_line_ending": "unix",
-	"show_line_endings": true,
-	"default_encoding": "UTF-8",
-	"show_encoding": true,
 	"detect_indentation": true,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": false,
@@ -20,14 +17,22 @@
 	"folder_exclude_patterns":
 	[
 		".git",
-		"node_modules"
+		"node_modules",
+		".sass-cache"
 	],
-	"font_size": 11.5,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
+	"ignored_packages":
+	[
+		"STProjectMaker",
+		"SublimeLinter",
+		"Vintage",
+		"AngularJS",
+		"TernJS",
+		"Vintageous"
+	],
 	"line_padding_bottom": 2,
-	"match_brackets": true,
-	"match_brackets_angle": true,
+	"matchBracketsAngle": true,
 	"remember_open_files": false,
 	"rulers":
 	[
@@ -36,5 +41,5 @@
 	"tab_size": 2,
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": false
 }
