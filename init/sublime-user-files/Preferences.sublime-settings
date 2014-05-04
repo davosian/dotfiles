@@ -1,5 +1,8 @@
 {
-	"color_scheme": "Packages/User/Dawn (SL).tmTheme",
+	"theme": "Afterglow-orange.sublime-theme",
+  "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+  "tabs_small": true,
+  "status_bar_brighter": true,
 	"default_line_ending": "unix",
 	"detect_indentation": true,
 	"draw_white_space": "all",
@@ -24,12 +27,12 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"STProjectMaker",
 		"SublimeLinter",
 		"Vintage",
-		"AngularJS",
 		"TernJS",
-		"Vintageous"
+		"AngularJS",
+		"Vintageous",
+		"STProjectMaker"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
