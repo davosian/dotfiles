@@ -15,3 +15,7 @@ Thumbs.db
 
 # Prevent files with sensitive information to be exposed
 Evernote.sublime-settings
+
+# Package Control temp files
+Package Control.cache/
+*.last-run
