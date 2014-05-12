@@ -17,7 +17,9 @@ install findutils
 # Install GNU `sed`, overwriting the built-in `sed`
 install gnu-sed --default-names
 # Install Bash 4
+# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 install bash
+install bash-completion
 
 # Install wget with IRI support
 install wget --enable-iri
@@ -40,10 +42,10 @@ install ack
 #install exiv2
 install foremost
 install git
+install hashpump
 install imagemagick --with-webp
 install lynx
 install nmap
-install ucspi-tcp # `tcpserver` et al.
 install node
 install p7zip
 install pigz
@@ -52,6 +54,7 @@ install rename
 install rhino
 install sqlmap
 install tree
+install ucspi-tcp # `tcpserver` et al.
 install webkit2png
 install xpdf
 install zopfli
