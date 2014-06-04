@@ -25,10 +25,10 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"TernJS",
-		"AngularJS",
 		"STProjectMaker",
+		"AngularJS",
 		"SublimeLinter",
+		"TernJS",
 		"Vintage",
 		"Vintageous"
 	],
