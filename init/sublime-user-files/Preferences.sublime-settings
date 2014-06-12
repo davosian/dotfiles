@@ -25,11 +25,11 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"STProjectMaker",
 		"AngularJS",
-		"SublimeLinter",
 		"TernJS",
 		"Vintage",
+		"SublimeLinter",
+		"STProjectMaker",
 		"Vintageous"
 	],
 	"line_padding_bottom": 2,
