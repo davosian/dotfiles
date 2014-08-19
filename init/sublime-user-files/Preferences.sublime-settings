@@ -1,49 +1,74 @@
 {
-	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
-	"copy_with_empty_selection": false,
-	"default_line_ending": "unix",
-	"detect_indentation": true,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
-	"file_exclude_patterns":
-	[
-		".DS_Store",
-		"Desktop.ini",
-		"*.pyc",
-		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
-	],
-	"folder_exclude_patterns":
-	[
-		".git",
-		"node_modules",
-		".sass-cache"
-	],
-	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"ignored_packages":
-	[
-		"AngularJS",
-		"TernJS",
-		"Vintage",
-		"SublimeLinter",
-		"STProjectMaker",
-		"Vintageous"
-	],
-	"line_padding_bottom": 2,
-	"matchBracketsAngle": true,
-	"remember_open_files": false,
-	"rulers":
-	[
-		80
-	],
-	"status_bar_brighter": true,
-	"tab_size": 2,
-	"tabs_small": true,
-	"theme": "Afterglow-orange.sublime-theme",
-	"translate_tabs_to_spaces": false,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+  // Theme Options
+	"theme": "predawn.sublime-theme",
+  "color_scheme": "Packages/Predawn/predawn.tmTheme",
+  "tabs_small": true,
+  "findreplace_small": true,
+  "sidebar_medium": true,
+
+
+  // Typography
+  "font_size": 12,
+  "highlight_line": true,
+  "caret_extra_width": 1,
+  "caret_style": "phase",
+  "word_wrap": false,
+  "line_padding_bottom": 2,
+
+
+  // Whitespace, Matching, Copy & Auto-Complete
+  "copy_with_empty_selection": false,
+  "drag_text": false,
+  "match_brackets_content": false,
+  "match_selection": false,
+  "match_tags": false,
+  "matchBracketsAngle": true,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "default_line_ending": "unix",
+  "detect_indentation": true,
+  "ensure_newline_at_eof_on_save": false,
+  "draw_white_space": "all",
+
+
+  // Interface & Behavior
+  "close_windows_when_empty": false,
+  "draw_minimap_border": true,
+  "enable_tab_scrolling": false,
+  "overlay_scroll_bars": "enabled",
+  "open_files_in_new_window": false,
+  "preview_on_click": false,
+  "scroll_speed": 5.0,
+  "show_full_path": false,
+  "hot_exit": false,
+  "remember_open_files": false,
+
+
+  // Exclusions and Ignore Patterns
+  "file_exclude_patterns":
+  [
+    ".DS_Store",
+    "Desktop.ini",
+    "*.pyc",
+    "._*",
+    "Thumbs.db",
+    ".Spotlight-V100",
+    ".Trashes"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    "node_modules",
+    ".sass-cache"
+  ],
+  "ignored_packages":
+  [
+    "STProjectMaker",
+    "TernJS",
+    "Theme - Afterglow",
+    "SublimeLinter",
+    "AngularJS",
+    "Vintageous",
+    "Vintage"
+  ],
 }
