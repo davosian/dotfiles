@@ -19,6 +19,7 @@
 		"HexViewer",
 		"Indent XML",
 		"JavaScript Snippets",
+		"JSONLint",
 		"Keymaps",
 		"Markdown Preview",
 		"MultiEditUtils",
@@ -33,7 +34,8 @@
 		"Theme - Afterglow",
 		"Theme - Soda",
 		"Theme - Spacegray",
-		"Vintageous"
+		"Vintageous",
+		"Web Inspector"
 	],
 	"repositories":
 	[
