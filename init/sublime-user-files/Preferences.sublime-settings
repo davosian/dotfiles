@@ -28,18 +28,19 @@
 		"node_modules",
 		".sass-cache"
 	],
-	"font_size": 14,
+	"font_face": "DejaVu Sans Mono",
+	"font_size": 11,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"STProjectMaker",
 		"Vintage",
 		"AngularJS",
-		"Vintageous",
 		"Theme - Afterglow",
+		"TernJS",
+		"Vintageous",
 		"SublimeLinter",
-		"TernJS"
+		"STProjectMaker"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
