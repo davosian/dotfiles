@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 # Make Sublime Text the default editor
 export EDITOR="subl"
-=======
-# Make vim the default editor
-export EDITOR="vim";
->>>>>>> f44b1c50f696d019ad4be5d3f3cf81d4964e9bb1
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768;
@@ -27,11 +22,7 @@ export MANPAGER="less -X";
 export GREP_OPTIONS="--color=auto";
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
-<<<<<<< HEAD
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Sencha command
 export SENCHA_CMD_3_0_0="/Users/dstaiger/bin/Sencha/Cmd/4.0.2.67"
-=======
-export HOMEBREW_CASK_OPTS="--appdir=/Applications";
->>>>>>> f44b1c50f696d019ad4be5d3f3cf81d4964e9bb1
