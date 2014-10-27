@@ -23,3 +23,6 @@ cask install transmission 2> /dev/null
 # cask install ukelele 2> /dev/null
 # cask install virtualbox 2> /dev/null
 cask install vlc 2> /dev/null
+
+# fix for Alfred (add to search scope)
+cask alfred link
