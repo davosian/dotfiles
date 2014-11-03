@@ -1,9 +1,9 @@
 {
 	"installed_packages":
 	[
-		"AdvancedNewFile",
 		"Alignment",
 		"AngularJS",
+		"ApplySyntax",
 		"Autoprefixer",
 		"ColorPicker",
 		"DashDoc",
@@ -26,12 +26,14 @@
 		"Predawn",
 		"Pretty JSON",
 		"Railscasts Extended",
+		"Seti_UI",
 		"SideBarEnhancements",
 		"STProjectMaker",
 		"SublimeLinter",
 		"TernJS",
 		"Text Pastry",
 		"Theme - Afterglow",
+		"Theme - El Capitan",
 		"Theme - Soda",
 		"Theme - Spacegray",
 		"Vintageous",

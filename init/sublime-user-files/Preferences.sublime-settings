@@ -2,7 +2,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"color_scheme": "Packages/Seti_UI/Seti.tmTheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
 	"detect_indentation": true,
@@ -34,13 +34,13 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Theme - Afterglow",
-		"TernJS",
-		"STProjectMaker",
 		"AngularJS",
 		"Vintage",
-		"SublimeLinter",
-		"Vintageous"
+		"Vintageous",
+		"STProjectMaker",
+		"Theme - Afterglow",
+		"TernJS",
+		"SublimeLinter"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
@@ -55,7 +55,7 @@
 	"show_full_path": false,
 	"sidebar_medium": true,
 	"tabs_small": true,
-	"theme": "predawn.sublime-theme",
+	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
