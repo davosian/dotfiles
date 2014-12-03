@@ -188,13 +188,8 @@ defaults write NSGlobalDomain AppleLocale -string "de_CH@currency=CHF"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
-<<<<<<< HEAD
-# Set the timezone; see `systemsetup -listtimezones` for other values
-systemsetup -settimezone "Europe/Zurich" > /dev/null
-=======
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Zurich" > /dev/null
->>>>>>> 7ed7a39d2d885e93bd431a2bc8217afbd146b551
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false

@@ -34,16 +34,15 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"TernJS",
-		"SublimeLinter",
-		"Text Pastry",
-		"Theme - Afterglow",
-		"AngularJS",
-		"Vintageous",
-		"Markdown Preview",
 		"Vintage",
+		"AngularJS",
 		"STProjectMaker",
-		"Autoprefixer"
+		"Text Pastry",
+		"SublimeLinter",
+		"TernJS",
+		"Autoprefixer",
+		"Vintageous",
+		"Theme - Afterglow"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
