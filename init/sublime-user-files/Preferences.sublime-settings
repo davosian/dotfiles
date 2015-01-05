@@ -34,15 +34,15 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"TernJS",
-		"Autoprefixer",
 		"Vintage",
 		"Vintageous",
-		"SublimeLinter",
-		"Theme - Afterglow",
-		"Text Pastry",
 		"AngularJS",
-		"STProjectMaker"
+		"Theme - Afterglow",
+		"TernJS",
+		"Autoprefixer",
+		"SublimeLinter",
+		"STProjectMaker",
+		"Text Pastry"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
