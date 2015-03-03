@@ -34,19 +34,18 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Emmet",
-		"Evernote",
-		"Git",
-		"GitGutter",
-		"Gradle_Language",
 		"HexViewer",
-		"Indent XML",
-		"JavaScript Snippets",
+		"Gradle_Language",
 		"JSONLint",
+		"JavaScript Snippets",
 		"Keymaps",
+		"GitGutter",
+		"Vintage",
+		"Emmet",
 		"Markdown Preview",
+		"Evernote",
 		"Vintageous",
-		"Vintage"
+		"Git"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
@@ -61,7 +60,7 @@
 	"show_full_path": false,
 	"sidebar_medium": true,
 	"tabs_small": true,
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }
