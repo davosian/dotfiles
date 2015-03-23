@@ -20,6 +20,7 @@ alias safari="open -a safari"
 alias firefox="open -a firefox"
 alias chrome="open -a google\ chrome"
 alias chromium="open -a chromium"
+alias syncajila="unison ajila"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
