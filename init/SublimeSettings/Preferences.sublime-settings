@@ -34,18 +34,18 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"HexViewer",
-		"Gradle_Language",
-		"JSONLint",
+		"Emmet",
+		"Vintage",
 		"JavaScript Snippets",
 		"Keymaps",
+		"JSONLint",
 		"GitGutter",
-		"Vintage",
-		"Emmet",
+		"Gradle_Language",
+		"Vintageous",
 		"Markdown Preview",
 		"Evernote",
-		"Vintageous",
-		"Git"
+		"Git",
+		"HexViewer"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
