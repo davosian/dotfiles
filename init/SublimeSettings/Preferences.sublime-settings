@@ -38,18 +38,18 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Keymaps",
 		"Vintage",
-		"HexViewer",
 		"Gradle_Language",
-		"Vintageous",
-		"Git",
-		"JavaScript Snippets",
-		"Markdown Preview",
 		"GitGutter",
+		"Git",
+		"Markdown Preview",
+		"JSONLint",
+		"Keymaps",
 		"Emmet",
-		"Evernote",
-		"JSONLint"
+		"JavaScript Snippets",
+		"HexViewer",
+		"Vintageous",
+		"Evernote"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
@@ -64,7 +64,7 @@
 	"show_full_path": false,
 	"sidebar_medium": true,
 	"tabs_small": true,
-	"theme": "Seti.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
