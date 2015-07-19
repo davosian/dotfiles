@@ -35,9 +35,11 @@
 	"ignored_packages":
 	[
 		"Vintage",
+		"FindKeyConflicts",
 		"HexViewer",
-		"Markdown Preview",
 		"Vintageous",
+		"TypeScript",
+		"Markdown Preview",
 		"Sublimerge Pro"
 	],
 	"line_padding_bottom": 2,
