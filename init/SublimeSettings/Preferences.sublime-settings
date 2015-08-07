@@ -2,7 +2,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
 	"detect_indentation": true,
@@ -28,19 +28,19 @@
 		"node_modules",
 		".sass-cache"
 	],
-	"font_face": "Menlo",
-	"font_size": 12,
+	"font_face": "Monoid-Retina",
+	"font_size": 15,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"TypeScript",
 		"Vintage",
-		"FindKeyConflicts",
+		"Sublimerge Pro",
 		"HexViewer",
 		"Vintageous",
-		"TypeScript",
-		"Markdown Preview",
-		"Sublimerge Pro"
+		"SublimeLinter-xmllint",
+		"FindKeyConflicts"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
