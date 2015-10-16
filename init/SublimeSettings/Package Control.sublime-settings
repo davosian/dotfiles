@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -30,6 +31,7 @@
 		"SublimeLinter-json",
 		"SublimeLinter-xmllint",
 		"Sublimerge Pro",
+		"Text Pastry",
 		"TypeScript",
 		"URLEncode",
 		"Vintageous"

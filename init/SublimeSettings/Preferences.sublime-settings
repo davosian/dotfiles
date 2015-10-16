@@ -28,19 +28,19 @@
 		"node_modules",
 		".sass-cache"
 	],
-	"font_face": "Monoid-Retina",
-	"font_size": 15,
+	"font_face": "Hack-Regular",
+	"font_size": 11,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"FindKeyConflicts",
+		"HexViewer",
+		"SublimeLinter-xmllint",
+		"Sublimerge Pro",
 		"TypeScript",
 		"Vintage",
-		"Sublimerge Pro",
-		"HexViewer",
-		"Vintageous",
-		"SublimeLinter-xmllint",
-		"FindKeyConflicts"
+		"Vintageous"
 	],
 	"line_padding_bottom": 2,
 	"matchBracketsAngle": true,
