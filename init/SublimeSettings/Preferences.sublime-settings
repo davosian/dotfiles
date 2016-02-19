@@ -2,7 +2,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
 	"detect_indentation": true,
@@ -35,6 +35,7 @@
 	"ignored_packages":
 	[
 		"FindKeyConflicts",
+		"GitSavvy",
 		"HexViewer",
 		"SublimeLinter-xmllint",
 		"Sublimerge Pro",

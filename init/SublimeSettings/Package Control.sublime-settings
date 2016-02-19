@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"AlignTab",
 		"ColorPicker",
 		"DashDoc",
 		"dired",
@@ -14,6 +15,7 @@
 		"EditorConfig",
 		"Emmet",
 		"FindKeyConflicts",
+		"GitSavvy",
 		"HexViewer",
 		"HTML-CSS-JS Prettify",
 		"IndentX",
