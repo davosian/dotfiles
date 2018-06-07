@@ -94,5 +94,10 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# custom apps by Dennis
+brew install neovim
+brew install fzf
+brew install fd
+
 # Remove outdated versions from the cellar.
 brew cleanup
