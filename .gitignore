@@ -19,3 +19,6 @@ Evernote.sublime-settings
 # Package Control temp files
 Package Control.cache/
 *.last-run
+
+# VS Code
+.vscode/
