@@ -1,8 +1,8 @@
 [user]
-  name = Jeff Geerling
-  email = geerlingguy@mac.com
+  name = Dennis Staiger
+  email = 5349+davosian@users.noreply.github.com
 [core]
-  editor = vi
+  editor = code --wait
   excludesfile = ~/.gitignore
   autocrlf = input
 [color]
@@ -11,17 +11,19 @@
   interactive = auto
   status = auto
 [init]
-  defaultBranch = master
-[web]
-  browser = google-chrome
+  defaultBranch = main
 [credential]
   helper = osxkeychain
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 [push]
   default = simple
 [merge]
-  tool = kdiff3
-[difftool]
-  prompt = false
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
 [alias]
   c = commit
   ca = commit -a
@@ -30,5 +32,3 @@
   d = diff
   dc = diff --cached
   l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
-[pull]
-	rebase = true

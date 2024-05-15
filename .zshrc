@@ -1,7 +1,7 @@
 #
 # .zshrc
 #
-# @author Jeff Geerling
+# @author Dennis Staiger
 #
 
 # Colors.
@@ -16,10 +16,10 @@ unsetopt nomatch
 export PS1=$'\n'"%F{green} %*%F %3~ %F{white}"$'\n'"$ "
 
 # Enable plugins.
-plugins=(git brew history kubectl history-substring-search)
+# plugins=(git brew history kubectl history-substring-search)
 
 # Custom $PATH with extra locations.
-export PATH=$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$HOME/go/bin:$HOME/.cargo/bin:/usr/local/git/bin:$HOME/.composer/vendor/bin:$PATH
+export PATH=$HOME/Library/Python/3.11/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$HOME/go/bin:$HOME/.cargo/bin:/usr/local/git/bin:$PATH
 
 # Bash-style time output.
 export TIMEFMT=$'\nreal\t%*E\nuser\t%*U\nsys\t%*S'
@@ -41,9 +41,9 @@ else
 fi
 
 # Allow history search via up/down keys.
-source ${share_path}/zsh-history-substring-search/zsh-history-substring-search.zsh
-bindkey "^[[A" history-substring-search-up
-bindkey "^[[B" history-substring-search-down
+# source ${share_path}/zsh-history-substring-search/zsh-history-substring-search.zsh
+# bindkey "^[[A" history-substring-search-up
+# bindkey "^[[B" history-substring-search-down
 
 # Git aliases.
 alias gs='git status'
@@ -80,10 +80,10 @@ function gsync() {
 export HOMEBREW_AUTO_UPDATE_SECS=604800
 
 # Super useful Docker container oneshots.
-# Usage: dockrun, or dockrun [centos7|fedora27|debian9|debian8|ubuntu1404|etc.]
+# Usage: dockrun, or dockrun [centos8|fedora38|debian11|ubuntu2204|etc.]
 # Run on arm64 if getting errors: `export DOCKER_DEFAULT_PLATFORM=linux/amd64`
 dockrun() {
- docker run -it geerlingguy/docker-"${1:-ubuntu1604}"-ansible /bin/bash
+ docker run -it geerlingguy/docker-"${1:-ubuntu2204}"-ansible /bin/bash
 }
 
 # Enter a running Docker container.
@@ -106,9 +106,6 @@ knownrm() {
    sed -i '' "$1d" ~/.ssh/known_hosts
  fi
 }
-
-# Allow Composer to use almost as much RAM as Chrome.
-export COMPOSER_MEMORY_LIMIT=-1
 
 # Ask for confirmation when 'prod' is in a command string.
 #prod_command_trap () {
