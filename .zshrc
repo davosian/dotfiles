@@ -143,3 +143,7 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+
+# Starship compatiblity with Warp
+# https://docs.warp.dev/appearance/prompt#starship
+PROMPT="${PROMPT}"$'\n'
