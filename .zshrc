@@ -68,7 +68,9 @@ alias gcam='git commit -am'
 alias gl='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 
 # Completions.
-autoload -Uz compinit && compinit
+fpath+=(~/.config/hcloud/completion/zsh) # hetzner cli
+autoload -Uz compinit; compinit
+
 # Case insensitive.
 zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*'
 
@@ -134,15 +136,12 @@ export NVM_DIR="$HOME/.nvm"
 # https://direnv.net/docs/hook.html#zsh
 eval "$(direnv hook zsh)"
 
-# starship terminal prompt
-eval "$(starship init zsh)"
-
 # sdkman. Keep at the bottom of this file.
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-# Q post block. Keep at the bottom of this file.
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
+# starship terminal prompt. Keep at the bottom of this file.
+eval "$(starship init zsh)"
 
 # Starship compatiblity with Warp
 # https://docs.warp.dev/appearance/prompt#starship
